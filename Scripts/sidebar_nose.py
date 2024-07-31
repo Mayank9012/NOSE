@@ -117,7 +117,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             transform: translateY(-30%) translateX(0%);
             width: 100%;
         }
-        p{
+        .steps{
             transform: translateY(-480%) translateX(29%);
         }
 
@@ -186,7 +186,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             if completed_step == '1':
                 circle_html = f"""
                 <div class="stStepCircle1" style="display: inline;">
-                    <p style="font-weight:bold; font-size:1.1rem;">
+                    <p class = "steps" style="font-weight:bold; font-size:1.1rem;">
                     <a href="{steps_link[i]}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
@@ -196,7 +196,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             else:
                 circle_html = f"""
                 <div class="stStepCircle1" style="display: inline;">
-                    <p style="font-weight:bold; font-size:1.1rem;">
+                    <p class = "steps" style="font-weight:bold; font-size:1.1rem;">
                     <a href="{step_name}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
