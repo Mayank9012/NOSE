@@ -158,7 +158,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
                 lines = f.readlines()
                 return [line.strip() for line in lines]
 
-        values = read_from_file('/NOSE/data/completed.txt')
+        values = read_from_file('data/completed.txt')
         completed_step1, completed_step2, completed_step3, completed_step4, completed_step5, completed_step6 = values
         st.image("/NOSE/Images/nose1.svg",
                  caption='',
