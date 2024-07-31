@@ -91,7 +91,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             color: white;
             text-wrap: wrap;
             font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1.2rem;
         }
 
         [data-testid=stSidebar] {
