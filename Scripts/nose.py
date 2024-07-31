@@ -9,7 +9,7 @@ from sidebar_nose import sidebar
 
 
 
-with open('/NOSE/CSS/nosepy.css') as f:
+with open('CSS/nosepy.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Generate task ID
@@ -35,7 +35,7 @@ def validate_email(email):
 
 
 # Main function
-with open('/NOSE/data/data.txt', 'r') as file:
+with open('data/data.txt', 'r') as file:
     # Read each line and strip whitespace (including newline characters)
     lines = file.readlines()
 
@@ -69,7 +69,7 @@ with st.container(border=True):
     with col3:
         st.markdown(heading,unsafe_allow_html=True)
     with col4:  
-        with open("/home/mayank/NoSE/Files/Ci.fasta", "rb") as file:
+        with open("data/Ci.fasta", "rb") as file:
             st.download_button(label="Load sample data", data = file,file_name="sample_query.fasta", type="primary")    
     # Main content
     st.markdown("<hr style='margin-top: 0px; height:2px; margin-bottom:40px; width:58.1vw; margin-right:15px;'>", unsafe_allow_html=True)
