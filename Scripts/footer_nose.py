@@ -3,6 +3,9 @@ import streamlit as st
 def footer_func():
     st.html("""
     <style>
+    [data-testid="stAppViewBlockContainer"]{
+        bottom-padding:10px;
+    }
     .footer_nose {
         background-color: #e0ece9; 
         text-align: center;
