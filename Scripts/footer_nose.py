@@ -83,7 +83,7 @@ def footer_func():
 	</style>
 	""")
 	st.markdown("""
-	<footer class = "footer_nose" style='z-index:78; position: absolute; border-top: 1px solid transparent; bottom:0rem; text-align: justify;  width:150%; padding: 10px; display: inline; max-height:180px; background-color:#e0ece9; grid-row:3; margin-top:200px; '>
+	<footer class = "footer_nose" style='z-index:78; position: relative; border-top: 1px solid transparent; bottom:0rem; text-align: justify;  width:150%; padding: 10px; display: inline; max-height:180px; background-color:#e0ece9; grid-row:3; margin-top:200px; '>
 		    <img class = "logos" src="https://i.ibb.co/LhXxSRQ/file.png" alt="IITM" style="margin-top: 10px; display: inline; margin-left:13px; margin-right:7px;">
 		    <img class = "logos" src="https://i.ibb.co/KmqXmbR/ibse-logo-removebg-preview.png" alt="IBSE"  style="margin-top: 10px; display: inline; margin-left:7px; margin-right:7px;">
 		    <img class = "logos" src="https://i.ibb.co/9hyjQpg/WSAI-logo-removebg-preview.png" alt="WSAI"  style="margin-top: 10px; display: inline; margin-left:7px; margin-right:10px;">
