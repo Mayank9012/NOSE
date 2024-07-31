@@ -159,8 +159,6 @@ section[data-testid="stFileUploaderDropzone"] {
     margin-right: 25.72972972972973vw;
 }
 
-
-
 [data-testid="baseButton-primary"] {
     background-color: #18382e;
     color: white;
@@ -218,11 +216,11 @@ section[data-testid="stFileUploaderDropzone"] {
     width: fit-content;
     display: flex;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 0.85rem;
 }
 
 .containers2 {
-    font-size: 15px;
+    font-size: 0.85rem;
     font-weight: bold;
     background-color: #18382e;
     color: white;
