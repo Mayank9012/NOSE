@@ -4,28 +4,25 @@ def footer_func():
     st.html("""
     <style>
     .footer_nose {
-        position: fixed; /* Fix the footer to the bottom */
-        bottom: 0; /* Stick to the bottom of the viewport */
-        left: 0; /* Align to the left */
-        width: 100%; /* Full width */
-        background-color: #e0ece9; /* Footer background color */
-        text-align: center; /* Center align text */
-        padding: 10px; /* Padding for the footer */
-        z-index: 78; /* Ensure the footer stays above other elements */
+        background-color: #e0ece9; 
+        text-align: center;
+        padding: 10px;
+        width: 100%; 
+        margin-top: 20px; /* Adjust as needed for spacing */
     }
 
     .logos {
         width: 4vw;
         height: 4vw;
         margin-bottom: 5px;
-        display: inline-block; /* Allow logos to be side-by-side */
+        display: inline-block; 
     }
 
     .foot_links {
         font-size: 1vw; 
         display: inline-block;
         color: #3d6154;
-        margin-top: 10px; /* Adjust vertical spacing */
+        margin-top: 10px; 
     }
 
     /* Responsive adjustments for smaller screens */
@@ -41,11 +38,14 @@ def footer_func():
     }
     </style>
     """)
-    st.markdown("""
-    <footer class="footer_nose">
-        <img class="logos" src="https://i.ibb.co/LhXxSRQ/file.png" alt="IITM">
-        <img class="logos" src="https://i.ibb.co/KmqXmbR/ibse-logo-removebg-preview.png" alt="IBSE">
-        <img class="logos" src="https://i.ibb.co/9hyjQpg/WSAI-logo-removebg-preview.png" alt="WSAI">
-        <p class="foot_links">© 2024 IIT Madras . <a href="#" class="foot">Privacy</a> . <a href="#" class="foot">Terms</a> . <a href="#" class="foot">Documentation</a></p> 
-    </footer>
-    """, unsafe_allow_html=True)
+
+    # Create a container for the footer
+    with st.container():
+        st.markdown("""
+        <footer class="footer_nose">
+            <img class="logos" src="https://i.ibb.co/LhXxSRQ/file.png" alt="IITM">
+            <img class="logos" src="https://i.ibb.co/KmqXmbR/ibse-logo-removebg-preview.png" alt="IBSE">
+            <img class="logos" src="https://i.ibb.co/9hyjQpg/WSAI-logo-removebg-preview.png" alt="WSAI">
+            <p class="foot_links">© 2024 IIT Madras . <a href="#" class="foot">Privacy</a> . <a href="#" class="foot">Terms</a> . <a href="#" class="foot">Documentation</a></p> 
+        </footer>
+        """, unsafe_allow_html=True)
