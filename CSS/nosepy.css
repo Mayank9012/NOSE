@@ -228,7 +228,8 @@ section[data-testid="stFileUploaderDropzone"] {
     padding: 5px;
     margin-left:15px;
     border-radius: 10px;
-
+	text-align:center;
+	align-items:center;
 }
 
 @media (max-width: 768px) {
