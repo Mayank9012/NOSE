@@ -98,7 +98,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             background-color: #016a4f;
             overflow-x: hidden;
             z-index: 200;
-            overflow: hidden;
+            
         }
 
         [data-testid=stSidebarContent] {
@@ -183,7 +183,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             if completed_step == '1':
                 circle_html = f"""
                 <div class="stStepCircle1" style="display: inline;">
-                    <p style="transform: translateY(-480%) translateX(29%); font-weight:bold; font-size:1.2rem;">
+                    <p style="transform: translateY(-480%) translateX(29%); font-weight:bold; font-size:1.1rem;">
                     <a href="{steps_link[i]}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
@@ -193,7 +193,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             else:
                 circle_html = f"""
                 <div class="stStepCircle1" style="display: inline;">
-                    <p style="transform: translateY(-480%) translateX(29%); font-weight:bold; font-size:1.2rem;">
+                    <p style="transform: translateY(-480%) translateX(29%); font-weight:bold; font-size:1.1rem;">
                     <a href="{step_name}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
@@ -205,8 +205,8 @@ def sidebar(step1, step2, step3, step4, step5, step6):
         step_conditions = [
             (step1, "Submit_Query", completed_step1),
             (step2, "Quality_Check", completed_step2),
-            (step3, "Genome_Relatednss_Index", completed_step3),
-            (step4, "Taxanomic_Classification", completed_step4),
+            (step3, "Taxanomic_Classification", completed_step3),
+            (step4, "Genome_Relatednss_Index", completed_step4),
             (step5, "Phylogenic_Tree", completed_step5),
             (step6, "Summary", completed_step6)
         ]
