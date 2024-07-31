@@ -4,7 +4,7 @@ def footer_func():
     st.html("""
     <style>
     [data-testid="stAppViewBlockContainer"]{
-        bottom-padding:10px;
+        padding-bottom:10px;
     }
     .footer_nose {
         background-color: #e0ece9; 
