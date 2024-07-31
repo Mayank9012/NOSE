@@ -45,7 +45,7 @@ footer_func()
 navigationbar_nose()
 
 
-sidebar(0,0,0,1,0,0)
+sidebar(0,0,1,0,0,0)
 display_output_2()
 
 
