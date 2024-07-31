@@ -72,7 +72,7 @@ with st.container(border=True):
         with open("data/Ci.fasta", "rb") as file:
             st.download_button(label="Load sample data", data = file,file_name="sample_query.fasta", type="primary")    
     # Main content
-    st.markdown("<hr style='margin-top: 0px; height:2px; margin-bottom:40px; width:58.1vw; margin-right:15px;'>", unsafe_allow_html=True)
+    st.markdown("<hr style='margin-top: 0px; height:2px; margin-bottom:40px; width:100%; margin-right:15px;'>", unsafe_allow_html=True)
     def create_task_folder(task_id):
         # Create folder with task_id
         os.makedirs(task_id)
