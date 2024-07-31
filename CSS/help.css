@@ -1,0 +1,36 @@
+[data-testid="stAppViewContainer"] {
+    background-color: #e0ece9;
+    overflow: hidden;
+}
+
+[class="st-emotion-cache-11ph4v9 e1f1d6gn0"] {
+    background-color: white;
+}
+
+
+hr {
+    display: flex;
+    border: none;
+    height: 1px;
+    color: #333;
+    width: 100%;
+    margin-top: 0px;
+    background-color: grey;
+}
+
+.heading{
+    margin: 0px auto; 
+    position: relative; 
+    top: 1px; 
+    transform: translateX(0px);
+    font-family:"Source Sans Pro", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+[class="st-emotion-cache-1h9usn1 eqpbllx3"]{
+	background-color: #a9cac5;
+	color: white;
+}
+[class="st-emotion-cache-gi0tri e1nzilvr1"]{
+	display: none;
+}
