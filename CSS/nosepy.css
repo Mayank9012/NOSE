@@ -13,113 +13,6 @@ button[title="View fullscreen"] {
     transform: translateY(50px);
 }
 
-.stProgress {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    transform: translateX(-50%) translateY(50%);
-}
-
-.stProgress>div {
-    display: flex;
-    justify-content: space-between;
-    /* Spread the progress circles evenly */
-    align-items: center;
-    /* Center vertically */
-    width: 450px;
-    height: 150px;
-    /* Adjust width of the progress bar */
-}
-
-.stProgress>div>div {
-    width: 1450px;
-    /* Adjust width of each progress circle */
-    transform: translateX(-265px) translateY(205px);
-}
-
-.stProgress>div>div>div {
-    background-color: #cac1c3;
-    transform: rotate(90deg);
-    justify-content: center;
-    width: 620px;
-}
-
-.stProgress>div>div>div>div {
-    background-color: #69ffd2;
-}
-
-.stStepCircle {
-    background-color: #023b2a;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 4px solid #fff;
-    /* Add white border */
-    display: flex;
-    margin-bottom: 0px;
-    transform: translateX(29px) translateY(-122px);
-    justify-content: left;
-    align-items: left;
-    color: white;
-    font-weight: bold;
-}
-
-.stStepCircle1 {
-    background-color: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-bottom: 0px;
-    transform: translateX(85px) translateY(-197px);
-    justify-content: left;
-    align-items: left;
-    color: white;
-    font-weight: bold;
-}
-
-.stStepCircle2 {
-    background-color: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    margin-bottom: 0px;
-    transform: translateX(40px) translateY(-198px);
-    justify-content: left;
-    align-items: left;
-    color: white;
-    text-wrap: wrap;
-    font-weight: bold;
-}
-
-[data-testid=stSidebar] {
-    background-color: #016a4f;
-    overflow-x: hidden;
-    z-index: 2;
-}
-
-[data-testid=stSidebarContent] {
-    background-color: #016a4f;
-    overflow-x: hidden;
-    padding-top: 60px;
-}
-
-[data-testid=stSidebar] [data-testid=stImage] {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    transform: translateY(-30%) translateX(0%);
-    width: 100%;
-}
-
-.stContainer {
-    background-color: grey;
-}
-
 .title {
     margin: 0px;
     position: auto;
@@ -169,22 +62,6 @@ hr {
 
 [data-testid="stHeader"] {
     display: none;
-}
-
-[data-testid="stSidebarHeader"] {
-    display: none;
-}
-
-section[data-testid="stSidebar"][aria-expanded="true"] {
-    height: 100% !important;
-    width: 390px !important;
-    bottom: 10%;
-}
-
-section[data-testid="stSidebar"][aria-expanded="false"] {
-    height: 100% !important;
-    width: 390px !important;
-    bottom: 10%;
 }
 
 [class="st-emotion-cache-r421ms e1f1d6gn0"] {
@@ -321,8 +198,8 @@ section[data-testid="stFileUploaderDropzone"] {
     justify-content: space-between;
     background-color: transparent;
     padding: 10px;
-    width: 60%;
-    gap: 10px;
+    width: fit-content;
+    gap: 5px;
     position: relative;
     left: 12%;
     margin-bottom: 50px;
