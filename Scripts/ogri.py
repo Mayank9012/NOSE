@@ -121,7 +121,7 @@ st.markdown("<hr style='margin:0px; height:2px; margin-bottom:0px; width:99.5%; 
 display_output_1()
 
 navigationbar_nose()
-sidebar(0,0,1,0,0,0)
+sidebar(0,0,0,1,0,0)
 footer_func()   
 
 
