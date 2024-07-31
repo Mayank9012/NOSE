@@ -13,7 +13,7 @@ from sidebar_nose import sidebar
 #else:
 #    st.write("No task ID found in URL.")
 
-with open('/NOSE/CSS/ogri.css') as f:
+with open('CSS/ogri.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
@@ -38,7 +38,7 @@ def display_output_1():
                 with st.container(border=True,height=430):
                     task_status_container = st.empty()
                     task_status_container.text("Task is in progress...")
-                    stdout, stderr = execute_task('/NOSE/data/runani.sh')
+                    stdout, stderr = execute_task('data/runani.sh')
             
                     if stderr:
                         st.text("")
@@ -56,7 +56,7 @@ def display_output_1():
                                     
                                 }
                                     </style>""", unsafe_allow_html=True)
-                file= open("/NOSE/data/task_status.txt","r")
+                file= open("data/task_status.txt","r")
                 btn = st.download_button(
                             label="Download Summary",
                             data=file,
@@ -71,7 +71,7 @@ def display_output_1():
                 with st.container(border=True,height=430):
                     task_status_container1 = st.empty()
                     task_status_container1.text("Task is in progress...")
-                    stdout, stderr = execute_task('/NOSE/data/runaai.sh')
+                    stdout, stderr = execute_task('data/runaai.sh')
                     if stderr:
                         st.error(stderr)
                     else:
@@ -79,7 +79,7 @@ def display_output_1():
                         with st.container(border=True, height=300):
                             st.text(stdout)
                     task_status_container1.empty()
-                file= open("/NOSE/data/task_status.txt","r")
+                file= open("data/task_status.txt","r")
                 btn = st.download_button(
                         label="Download Summary",
                         data=file,
@@ -100,7 +100,7 @@ def display_output_1():
                     with st.container(border=True, height=300):
                         st.session_state["tab3"] = True
 
-            file= open("/NOSE/data/task_status.txt","r")
+            file= open("data/task_status.txt","r")
             btn = st.download_button(
                 label="Download Summary",
                 data=file,
