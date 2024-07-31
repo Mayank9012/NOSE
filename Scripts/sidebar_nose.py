@@ -208,7 +208,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
         step_conditions = [
             (step1, "Submit_Query", completed_step1),
             (step2, "Quality_Check", completed_step2),
-            (step3, "Taxanomic_Classification", completed_step3),
+            (step3, "Taxonomic_Classification", completed_step3),
             (step4, "Genome_Relatednss_Index", completed_step4),
             (step5, "Phylogenic_Tree", completed_step5),
             (step6, "Summary", completed_step6)
