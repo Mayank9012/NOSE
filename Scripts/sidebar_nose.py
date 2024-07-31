@@ -103,7 +103,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
 
         [data-testid=stSidebarContent] {
             background-color: #016a4f;
-            overflow: hidden;
+            overflow-x: hidden;
             padding-top: 60px;
             padding-bottom: 0px;
         }
