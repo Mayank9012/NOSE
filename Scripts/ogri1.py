@@ -13,7 +13,7 @@ from sidebar_nose import sidebar
 #else:
 #    st.write("No task ID found in URL.")
 
-with open('/NOSE/CSS/ogri1.css') as f:
+with open('CSS/ogri1.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
