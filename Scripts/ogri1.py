@@ -48,7 +48,7 @@ def display_output_1():
                 with st.container(border=False,height=185):
                         task_status_container = st.empty()
                         task_status_container.text("Task is in progress...")
-                        stdout, stderr = execute_task('/NOSE/data/runani.sh')
+                        stdout, stderr = execute_task('data/runani.sh')
                 
                         if stderr:
                             st.text("")
@@ -58,7 +58,7 @@ def display_output_1():
                                 output = stdout
                                 st.text(output)
                         task_status_container.empty()
-                        file= open("/NOSE/data/task_status.txt","r")
+                        file= open("data/task_status.txt","r")
                         btn = st.download_button(
                                     label="Download Summary",
                                     data=file,
@@ -76,7 +76,7 @@ def display_output_1():
                 with st.container(border=False,height=185):
                         task_status_container1 = st.empty()
                         task_status_container1.text("Task is in progress...")
-                        stdout, stderr = execute_task('/NOSE/data/runaai.sh')
+                        stdout, stderr = execute_task('data/runaai.sh')
                         if stderr:
                             st.error(stderr)
                         else:
@@ -84,7 +84,7 @@ def display_output_1():
                             with st.container(border=False, height=35):
                                 st.text(stdout)
                         task_status_container1.empty()
-                        file= open("/NOSE/data/task_status.txt","r")
+                        file= open("data/task_status.txt","r")
                         btn = st.download_button(
                             label="Download Summary",
                             data=file,
