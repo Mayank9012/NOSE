@@ -86,7 +86,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             border-radius: 50%;
             display: flex;
             margin-bottom: 40px;
-            transform: translateX(24px) translateY(-295.9px);
+            transform: translateX(24px) translateY(-255.9px);
             justify-content: center;
             align-items: left;
             color: white;
