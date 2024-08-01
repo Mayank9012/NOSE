@@ -115,10 +115,10 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             margin-left: auto;
             margin-right: auto;
             margin-top: 0px;
-            transform: translateY(-30%) translateX(1%);
+            transform: translateY(-30%) translateX(5%);
         }
         .steps{
-            transform: translateY(-930%) translateX(29%);
+            transform: translateY(-950%) translateX(29%);
         }
 
         .stContainer {
@@ -190,7 +190,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
                     <a href="{steps_link[i]}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
-                <div class="stStepCircle2" style="color:{checked_color};"><p style="position:relative; transform: translateX(-0.05px) translateY(-1.751px);"><img src="https://svgshare.com/i/17pL.svg" width="35" height="35"></p></div>
+                <div class="stStepCircle2" style="color:{checked_color};"><p style="position:relative; transform: translateX(-0.05px) translateY(-6.751px);"><img src="https://svgshare.com/i/17pL.svg" width="35" height="35"></p></div>
                 """
                 return circle_html
             else:
