@@ -202,6 +202,7 @@ section[data-testid="stFileUploaderDropzone"] {
     position: relative;
     left: 12%;
     margin-bottom: 50px;
+	color: black;
 }
 
 .element1,
@@ -219,6 +220,7 @@ section[data-testid="stFileUploaderDropzone"] {
     display: flex;
     justify-content: center;
     font-size: 0.85rem;
+	color: black;
 }
 
 .containers2 {
@@ -243,6 +245,7 @@ section[data-testid="stFileUploaderDropzone"] {
     .element3,
     .element4 {
 	flex-basis: calc(50% - 10px);
+		color: black;
 	/* Two items per row on smaller screens */
     }
 }
