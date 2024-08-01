@@ -13,7 +13,9 @@ button[title="View fullscreen"] {
 [class="st-emotion-cache-19u4bdk eczjsme2"] {
     transform: translateY(50px);
 }
-
+[data-testid="stWidgetLabel"]{
+	color:black;
+}
 .title {
     margin: 0px;
     position: auto;
