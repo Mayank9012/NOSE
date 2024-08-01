@@ -61,7 +61,7 @@ with st.container(border=True):
        
     heading="""
             <div class = "title">
-                <h2 style = "position:relative; right:1px; color: black; font-size:1.5rem;" >Submit your query</h2>
+                <h2 style = "position:relative; right:1px; color: black; font-size:1.9rem;" >Submit your query</h2>
             </div>    
 
             """
