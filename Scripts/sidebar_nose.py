@@ -70,7 +70,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             height: 4vh;
             border-radius: 50%;
             display: inline-block;
-            margin-bottom: 5vh;
+            margin-bottom: 3vh;
             transform: translateX(-45px) translateY(-197px);
             justify-content: left;
             align-items: left;
@@ -85,7 +85,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             border: 4px solid #fff;
             border-radius: 50%;
             display: flex;
-            margin-bottom: 5vh;
+            margin-bottom: 3vh;
             transform: translateX(24px) translateY(-255.9px);
             justify-content: center;
             align-items: left;
