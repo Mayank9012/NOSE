@@ -115,10 +115,10 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             margin-left: auto;
             margin-right: auto;
             margin-top: 0px;
-            transform: translateY(-30%) translateX(0%);
+            transform: translateY(-30%) translateX(10%);
         }
         .steps{
-            transform: translateY(-580%) translateX(29%);
+            transform: translateY(-750%) translateX(29%);
         }
 
         .stContainer {
