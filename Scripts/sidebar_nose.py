@@ -143,13 +143,13 @@ def sidebar(step1, step2, step3, step4, step5, step6):
 
         section[data-testid="stSidebar"][aria-expanded="true"] {
             height: 100% !important;
-            width: 390px !important;
+            width: 330px !important;
             bottom: 10%;
         }
 
         section[data-testid="stSidebar"][aria-expanded="false"] {
             height: 100% !important;
-            width: 390px !important;
+            width: 330px !important;
             bottom: 10%;
         }
     </style>
