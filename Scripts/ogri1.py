@@ -26,9 +26,7 @@ header="""
 st.markdown(header,unsafe_allow_html=True,help="OGRI is used for the analysis of genomic relatedness between bacterial strains. It provides a comprehensive analysis of the genomic relatedness between bacterial strains using three different methods: Average Nucleotide Identity (ANI), Average Amino Acid Identity (AAI), and digital DNA-DNA Hybridization (dDDH).")  
 st.markdown("<hr style='margin:0px; height:2px; margin-bottom:0px; width:100%; margin-left: 1px;'>", unsafe_allow_html=True)
 
-footer_func()   
-navigationbar_nose()
-sidebar(0,0,1,0,0,0)
+
 
 @st.cache_resource
 def execute_task(script_path):
@@ -95,3 +93,6 @@ def display_output_1():
                 
                  
 display_output_1()
+navigationbar_nose()
+sidebar(0,0,1,0,0,0)
+footer_func()   
