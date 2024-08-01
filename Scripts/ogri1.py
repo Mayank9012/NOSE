@@ -104,7 +104,7 @@ st.markdown("""<style>
             /* Add white border */
             display: flex;
             margin-bottom: 2vh;
-            transform: translateX(-40px) translateY(-121.9px);
+            transform: translateX(-40px) translateY(-621.9px);
             justify-content: left;
             align-items: left;
             color: white;
