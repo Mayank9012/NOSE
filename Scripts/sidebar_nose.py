@@ -190,7 +190,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
                     <a href="{steps_link[i]}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
-                <div class="stStepCircle2" style="color:{checked_color};"><p style="position:relative; transform: translateX(-0.5px) translateY(-1.751px);"><img src="https://svgshare.com/i/17pL.svg" width="35" height="35"></p></div>
+                <div class="stStepCircle2" style="color:{checked_color};"><p style="position:relative; transform: translateX(-0.45px) translateY(-1.751px);"><img src="https://svgshare.com/i/17pL.svg" width="35" height="35"></p></div>
                 """
                 return circle_html
             else:
