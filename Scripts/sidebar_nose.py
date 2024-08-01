@@ -40,7 +40,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             background-color: #cac1c3;
             transform: rotate(90deg);
             justify-content: center;
-            width: 100vh;
+            width: 500vh;
         }
 
         .stProgress>div>div>div>div {
