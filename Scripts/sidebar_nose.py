@@ -166,6 +166,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
         completed_step1, completed_step2, completed_step3, completed_step4, completed_step5, completed_step6 = values
         st.image("Images/nose1.svg",
                  caption='',
+                 width = "auto",
                  use_column_width=False,
                  clamp=False,
                  channels='RGB')
