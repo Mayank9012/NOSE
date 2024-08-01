@@ -66,8 +66,8 @@ def sidebar(step1, step2, step3, step4, step5, step6):
 
         .stStepCircle1 {
             background-color: #023b2a;
-            width: 40px;
-            height: 40px;
+            width: 4vw;
+            height: 4vw;
             border-radius: 50%;
             display: inline-block;
             margin-bottom: 30px;
@@ -80,8 +80,8 @@ def sidebar(step1, step2, step3, step4, step5, step6):
 
         .stStepCircle2 {
             background-color: #023b2a;
-            width: 39px;
-            height: 39px;
+            width: 4vw;
+            height: 4vw;
             border: 4px solid #fff;
             border-radius: 50%;
             display: flex;
