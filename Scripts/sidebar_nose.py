@@ -25,7 +25,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             /* Spread the progress circles evenly */
             align-items: center;
             /* Center vertically */
-            width: 450px;
+            width: 100%;
             height: 150px;
             /* Adjust width of the progress bar */
         }
@@ -40,7 +40,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             background-color: #cac1c3;
             transform: rotate(90deg);
             justify-content: center;
-            width: 620px;
+            width: 100%;
         }
 
         .stProgress>div>div>div>div {
