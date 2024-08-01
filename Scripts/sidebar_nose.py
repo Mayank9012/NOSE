@@ -45,6 +45,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
 
         .stProgress>div>div>div>div {
             background-color: #69ffd2;
+            widht:100%;
         }
 
         .stStepCircle {
