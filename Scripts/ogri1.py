@@ -94,5 +94,53 @@ def display_output_1():
                  
 display_output_1()
 navigationbar_nose()
+st.markdown("""<style>
+        .stStepCircle {
+            background-color: #023b2a;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            /* Add white border */
+            display: flex;
+            margin-bottom: 2vh;
+            transform: translateX(-40px) translateY(-121.9px);
+            justify-content: left;
+            align-items: left;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stStepCircle1 {
+            background-color: #023b2a;
+            width: 4vh;
+            height: 4vh;
+            border-radius: 50%;
+            display: inline-block;
+            margin-bottom: 1vh;
+            transform: translateX(-45px) translateY(-197px);
+            justify-content: left;
+            align-items: left;
+            color: white;
+            font-weight: bold;
+        }
+
+        .stStepCircle2 {
+            background-color: #023b2a;
+            width: 4vh;
+            height: 4vh;
+            border: 4px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            margin-bottom: 1vh;
+            transform: translateX(44px) translateY(-755.9px);
+            justify-content: center;
+            align-items: left;
+            color: white;
+            text-wrap: wrap;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }                </style> """, unsafe_allow_html=True)
+
 sidebar(0,0,1,0,0,0)
 footer_func()   
