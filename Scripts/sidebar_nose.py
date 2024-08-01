@@ -15,7 +15,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 50px;
+            height: 100%;
             transform: translateX(-50%) translateY(50%);
         }
 
@@ -31,7 +31,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
         }
 
         .stProgress>div>div {
-            width: 1450px;
+            width: 100%;
             /* Adjust width of each progress circle */
             transform: translateX(-5px) translateY(5px);
         }
