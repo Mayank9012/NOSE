@@ -118,7 +118,7 @@ st.markdown("""<style>
             border-radius: 50%;
             display: inline-block;
             margin-bottom: 1vh;
-            transform: translateX(-45px) translateY(-197px);
+            transform: translateX(-45px) translateY(-977px);
             justify-content: left;
             align-items: left;
             color: white;
