@@ -33,14 +33,14 @@ def sidebar(step1, step2, step3, step4, step5, step6):
         .stProgress>div>div {
             width: 100vh;
             /* Adjust width of each progress circle */
-            transform: translateX(-5px) translateY(5px);
+            transform: translateX(-345px) translateY(5px);
         }
 
         .stProgress>div>div>div {
             background-color: #cac1c3;
             transform: rotate(90deg);
             justify-content: center;
-            width: 500vh;
+            width: 350vh;
         }
 
         .stProgress>div>div>div>div {
