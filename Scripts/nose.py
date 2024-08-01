@@ -61,7 +61,7 @@ with st.container(border=True):
        
     heading="""
             <div class = "title">
-                <h2 style = "position:relative; right:1px;" >Submit your query</h2>
+                <h2 style = "position:relative; right:1px; color: black;" >Submit your query</h2>
             </div>    
 
             """
@@ -72,7 +72,7 @@ with st.container(border=True):
         with open("data/Ci.fasta", "rb") as file:
             st.download_button(label="Load sample data", data = file,file_name="sample_query.fasta", type="primary")    
     # Main content
-    st.markdown("<hr style='margin-top: 0px; height:2px; margin-bottom:40px; width:100%; margin-right:15px;'>", unsafe_allow_html=True)
+    st.markdown("<hr style='margin-top: 0px; height:2px; margin-bottom:40px; width:100%; margin-right:15px; color: black;'>", unsafe_allow_html=True)
     def create_task_folder(task_id):
         # Create folder with task_id
         os.makedirs(task_id)
@@ -87,19 +87,19 @@ with st.container(border=True):
     
 
     with st.form("query"):
-        st.markdown("<b style = 'font-size:20px;'>Query file(s)*</b>", unsafe_allow_html=True)
+        st.markdown("<b style = 'font-size:20px; color: black;'>Query file(s)*</b>", unsafe_allow_html=True)
         query_files = st.file_uploader("", type=["fasta","fna","fa"], accept_multiple_files=True)
 
-        st.markdown("<hr style='margin-top:20px; margin-bottom:10px; background-color: transparent;'>", unsafe_allow_html=True)
+        st.markdown("<hr style='margin-top:20px; margin-bottom:10px; background-color: transparent; color: black;'>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         with col1:
-            st.markdown("<b style = 'font-size:20px; margin-top: 10px;'>Extra Features</b>", unsafe_allow_html=True)
+            st.markdown("<b style = 'font-size:20px; margin-top: 10px; color: black;'>Extra Features</b>", unsafe_allow_html=True)
             checkbox1 = st.checkbox("Feature 1",key="Feature 1")
             checkbox2 = st.checkbox("Feature 2",key="Feature 2")
             checkbox3 = st.checkbox("Feature 3",key="Feature 3")
 
         with col2:
-            st.markdown("<b style = 'font-size:20px;margin-top: 10px;'>Email Address*</b>", unsafe_allow_html=True)
+            st.markdown("<b style = 'font-size:20px;margin-top: 10px; color: black;'>Email Address*</b>", unsafe_allow_html=True)
             email = st.text_input("", placeholder="abc@gmail.com")
         submit = st.form_submit_button("Submit")
             
