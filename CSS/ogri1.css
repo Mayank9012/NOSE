@@ -89,5 +89,5 @@ hr {
 	padding-top:6rem;
 } 
 .stStepCircle2{
-	transform:translateX(-95%);
+	transform:translateX(-95%) !important;
 }
