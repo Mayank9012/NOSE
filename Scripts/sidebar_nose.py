@@ -153,7 +153,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             bottom: 10%;
         }
         .index{
-            transform: translateY(-6px);
+            transform: translateY(-4.5px);
             font-weight:bold;
         }
     </style>
