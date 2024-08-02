@@ -152,6 +152,9 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             width: 330px !important;
             bottom: 10%;
         }
+        .index{
+            transform: translateY(-1px);
+        }
     </style>
     """, unsafe_allow_html=True)
 
@@ -200,7 +203,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
                     <a href="{step_name}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
-                <div class="stStepCircle2" style="color:{checked_color}; ">{step_index}</div>
+                <div class="stStepCircle2" style="color:{checked_color}; "><p class = "index">{step_index}</p></div>
                 """
                 return circle_html
 
