@@ -118,7 +118,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             transform: translateY(-30%) translateX(5%);
         }
         .steps{
-            transform: translateY(-940%) translateX(29%);
+            transform: translateY(-980%) translateX(29%);
         }
 
         .stContainer {
