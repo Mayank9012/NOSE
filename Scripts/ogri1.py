@@ -143,7 +143,7 @@ st.markdown("""<style>
             font-size: 0.9rem;
         }
         .image{
-                transform: translateY(-9.78px);
+                transform: translateY(-11.78px) !important;
         }
         .index{
                 transform: translateY(-5px);
