@@ -35,15 +35,15 @@ def execute_task(script_path):
     return stdout.decode(), stderr.decode()
 
 def display_output_1():
-    with st.container(border=True,height=495):
+    with st.container(border=True,height=400):
         with st.container(border=True):
             col1,col2 = st.columns([1,4])
             with col1:
                 st.markdown("""<div class = "heading">
-                    <h2  style = "color:black; font-weight:bold; font-size:22px; position:relative; justify-content:center; text-align:center; align-items:center;">Average Nucleotide Identity (ANI)</h2>
+                    <h2  style = "color:black; font-weight:bold; font-size:1.0rem; position:relative; justify-content:center; text-align:center; align-items:center;">Average Nucleotide Identity (ANI)</h2>
                 </div> """, unsafe_allow_html=True)
             with col2:
-                with st.container(border=False,height=185):
+                with st.container(border=False,height=120):
                         task_status_container = st.empty()
                         task_status_container.text("Task is in progress...")
                         stdout, stderr = execute_task('data/runani.sh')
@@ -68,10 +68,10 @@ def display_output_1():
             col3,col4 = st.columns([1,4])
             with col3:
                 st.markdown("""<div class = "heading">
-                    <h2  style = "color:black; font-weight:bold; font-size:22px; position:relative; justify-content:center; text-align:center; align-items:center;"> Average Amino Acid Identity (AAI) </h2>
+                    <h2  style = "color:black; font-weight:bold; font-size:1.0rem; position:relative; justify-content:center; text-align:center; align-items:center;"> Average Amino Acid Identity (AAI) </h2>
                 </div> """, unsafe_allow_html=True)
             with col4: 
-                with st.container(border=False,height=185):
+                with st.container(border=False,height=120):
                         task_status_container1 = st.empty()
                         task_status_container1.text("Task is in progress...")
                         stdout, stderr = execute_task('data/runaai.sh')
