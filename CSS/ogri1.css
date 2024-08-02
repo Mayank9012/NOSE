@@ -61,7 +61,8 @@ hr {
     width:100%;
 }
 [data-testid="baseButton-secondary"]{
-	width: 15%;
+	width: 25%;
+	font-size:0.9rem;
 }
 [data-testid="stVerticalBlockBorderWrapper"]{
 
