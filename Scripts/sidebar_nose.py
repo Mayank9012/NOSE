@@ -86,7 +86,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             border-radius: 50%;
             display: flex;
             margin-bottom: 1vh;
-            transform: translateX(44px) translateY(-255.9px);
+            transform: translateX(44px) translateY(-256.9px);
             justify-content: center;
             align-items: left;
             color: white;
@@ -200,7 +200,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
                     <a href="{step_name}" style="color:{checked_color}; text-decoration:none;" target="_self">{step_name_display}</a>
                     </p>
                 </div>
-                <div class="stStepCircle2" style="color:{checked_color};">{step_index}</div>
+                <div class="stStepCircle2" style="color:{checked_color}; ">{step_index}</div>
                 """
                 return circle_html
 
