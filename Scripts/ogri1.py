@@ -119,7 +119,7 @@ st.markdown("""<style>
             border-radius: 50%;
             display: inline-block;
             margin-bottom: 1vh;
-            transform: translateX(-45px) translateY(-977px);
+            transform: translateX(-45px) translateY(-1477px);
             justify-content: left;
             align-items: left;
             color: white;
@@ -134,7 +134,7 @@ st.markdown("""<style>
             border-radius: 50%;
             display: flex;
             margin-bottom: 1vh;
-            transform: translateX(44px) translateY(-755.9px);
+            transform: translateX(44px) translateY(-1455.9px);
             justify-content: center;
             align-items: left;
             color: white;
