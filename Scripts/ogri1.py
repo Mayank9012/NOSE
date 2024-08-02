@@ -149,7 +149,7 @@ st.markdown("""<style>
                 transform: translateY(-5px);
         }
         .steps{
-               transform: translateY(-1005%) translateX(29%);
+               transform: translateY(-1006%) translateX(29%);
         }
 
         </style> """, unsafe_allow_html=True)
