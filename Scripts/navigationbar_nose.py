@@ -11,7 +11,7 @@ def navigationbar_nose():
                 padding: 10px 10px 10px;
                 top: 0rem;
                 right: 0rem;
-                z-index: 1;
+                z-index: 100;
                 margin-bottom: 150px;
                 border-bottom: 80px;
                 width: 100vw;
