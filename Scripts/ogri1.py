@@ -141,7 +141,15 @@ st.markdown("""<style>
             text-wrap: wrap;
             font-weight: bold;
             font-size: 0.9rem;
-        }                </style> """, unsafe_allow_html=True)
+        }
+        .image{
+                transform: translateY(-9.78px);
+        }
+        .index{
+                transform: translateY(-5px);
+        }
+        
+        </style> """, unsafe_allow_html=True)
 
 
 footer_func()   
