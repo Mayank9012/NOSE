@@ -35,7 +35,7 @@ def execute_task(script_path):
     return stdout.decode(), stderr.decode()
 
 def display_output_1():
-    with st.container(border=True,height=375):
+    with st.container(border=True,height=365):
         with st.container(border=True):
             col1,col2 = st.columns([1,4])
             with col1:
