@@ -71,7 +71,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             border-radius: 50%;
             display: inline-block;
             margin-bottom: 1vh;
-            transform: translateX(-45px) translateY(-197px);
+            transform: translateX(-45px) translateY(-205px);
             justify-content: left;
             align-items: left;
             color: white;
@@ -86,7 +86,7 @@ def sidebar(step1, step2, step3, step4, step5, step6):
             border-radius: 50%;
             display: flex;
             margin-bottom: 1vh;
-            transform: translateX(44px) translateY(-260.9px);
+            transform: translateX(44px) translateY(-265.9px);
             justify-content: center;
             align-items: left;
             color: white;
