@@ -94,6 +94,7 @@ def display_output_1():
                  
 display_output_1()
 navigationbar_nose()
+sidebar(0,0,1,0,0,0)
 st.markdown("""<style>
         .stStepCircle {
             background-color: #023b2a;
@@ -142,5 +143,5 @@ st.markdown("""<style>
             font-size: 0.9rem;
         }                </style> """, unsafe_allow_html=True)
 
-sidebar(0,0,1,0,0,0)
+
 footer_func()   
