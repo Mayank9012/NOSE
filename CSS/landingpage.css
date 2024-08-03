@@ -245,8 +245,7 @@ body, html {
 [data-testid="baseButton-secondary"] {
     transform: translateX(-225%) translateY(-900%);
     width: 170px;
-    height: 45px;
-    
+    height: 45px;    
     border: 2px solid #3d6154;
     background-color: #1c3b29;
     position: relative;
@@ -595,8 +594,8 @@ body, html {
 
     [data-testid="stIFrame"] {
         position: relative;
-        width: 40%;
-        transform: translateX(-76%) translateY(-70%);
+        width: 50%;
+        transform: translateX(-156%) translateY(-70%);
         left: 30%;
     }
 
