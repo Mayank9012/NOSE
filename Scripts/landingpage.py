@@ -66,7 +66,7 @@ with st.container(border=True):
         width: 100%;
         display: inline-block;
         font-family: "Raleway", sans-serif;
-        font-size: 3em;
+        font-size: 1.2rem;
         text-align: center;
         color: #1c3b29;
         user-select: none;
