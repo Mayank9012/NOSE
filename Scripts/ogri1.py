@@ -142,6 +142,9 @@ st.markdown("""<style>
             font-weight: bold;
             font-size: 0.9rem;
         }
+        [data-testid="stTooltipHoverTarget"]{
+                transform: translateY(15px);
+        }
         .image{
                 transform: translateY(-9.78px) !important;
         }
