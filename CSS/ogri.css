@@ -7,7 +7,6 @@
     background-color: white;
 }
 
-
 [class="st-emotion-cache-0 e1f1d6gn0"] {
 
 }
@@ -70,12 +69,12 @@ hr {
     top: 1px; 
     transform: translateX(-22px);
     font-family:"Source Sans Pro", sans-serif;
-    font-size: 28px;
+    font-size: 1.9rem;
     font-weight: bold;
 }
 
 [data-testid="stTooltipHoverTarget"]{
-	transform: translateY(8px);
+	transform: translateY(8.5px);
 }
 
 [class="block-container st-emotion-cache-13ln4jf ea3mdgi5"] {
