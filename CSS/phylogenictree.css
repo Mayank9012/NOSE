@@ -15,7 +15,7 @@
     transform: translateX(0%); 
     z-index: 1;
     font-family: Times, 'Times New Roman', serif;
-    font-size: 28px;
+    font-size: 1.9rem;
     font-weight: bold;
 }
 
@@ -90,8 +90,11 @@ button[data-baseweb="tab"] > div[data-testid="stMarkdownContainer"] > p {
     	padding: 0px;
 }
 [data-testid="stAppViewBlockContainer"]{
-	padding-top:6rem;
+	padding-top:4rem;
 	padding-bottom: 65px;
+}
+[data-testid="stTooltipHoverTarget"]{
+	transform: translateY(8px);
 }
 [data-testid="stTabs"]{
     width: 100%;
