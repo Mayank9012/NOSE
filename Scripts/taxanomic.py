@@ -7,7 +7,7 @@ from sidebar_nose import sidebar
 
 st.set_page_config(layout="wide", initial_sidebar_state='auto' )
 
-with open('/NOSE/CSS/taxanomic.css') as f:
+with open('CSS/taxanomic.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 def display_output_2():
@@ -21,7 +21,7 @@ def display_output_2():
         
         with st.container(border=True):
             st.write("Task is in progress...")
-        file= open("/NOSE/data/task_status.txt","r")
+        file= open("data/task_status.txt","r")
         btn = st.download_button(
                 label="Download Summary",
                 data=file,
