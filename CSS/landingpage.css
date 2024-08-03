@@ -304,12 +304,12 @@ body, html {
     position: relative;
     font-family: Ubuntu;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.0rem;
     letter-spacing: 4px;
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
-	left: 25% !important;
+	left: 32% !important;
     transform: translateY(-50px) !important;
 }
 
@@ -542,13 +542,13 @@ body, html {
         position: relative;
         font-family: Ubuntu;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 1.0em;
         letter-spacing: 4px;
         overflow: hidden;
         color: #1c3b29;
         top: 0rem;
-        left: 35%;
-        transform: translateY(-52px);
+        left: 39.5% !important;
+        transform: translateY(-62px) !important;
     }
 
     .logo {
