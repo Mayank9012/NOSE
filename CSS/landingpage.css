@@ -309,7 +309,7 @@ body, html {
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
-	left: 32% !important;
+	left: 35% !important;
     transform: translateY(-50px) !important;
 }
 
@@ -542,12 +542,12 @@ body, html {
         position: relative;
         font-family: Ubuntu;
         font-weight: bold;
-        font-size: 1.0em;
+        font-size: 1.0rem;
         letter-spacing: 4px;
         overflow: hidden;
         color: #1c3b29;
         top: 0rem;
-        left: 39.5% !important;
+        left: 36.5% !important;
         transform: translateY(-62px) !important;
     }
 
