@@ -309,6 +309,7 @@ body, html {
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
+	left: -50%;
     transform: translateY(-50px) !important;
 }
 
