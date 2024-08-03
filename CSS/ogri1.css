@@ -92,5 +92,5 @@ hr {
 	padding-top:6rem;
 } 
 [data-testid="stTooltipHoverTarget"]{
-        transform: translateY(7px);
+        transform: translateY(2px);
 }
