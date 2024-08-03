@@ -15,6 +15,9 @@
     height: 100px;
 }
 
+[data-testid="stText"]{
+	font-size:0.8rem;
+}
 .stTabs [data-baseweb="tab-list"] {
     background-color: #F0F2F6;
     text-align: center;
