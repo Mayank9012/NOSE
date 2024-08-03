@@ -7,6 +7,9 @@
     background-color: white;
 }
 
+[data-testid="stAppViewBlockContainer"]{
+	padding-top: 4rem;
+}
 .btn {
     background-color: #1c3b29;
     border: #3d6154;
