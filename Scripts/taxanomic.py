@@ -41,12 +41,11 @@ st.markdown(header,unsafe_allow_html=True,help="Taxanomic Classification")
  
 # Main content
 st.markdown("<hr style='margin:0px; height:2px; margin-bottom:40px;'>", unsafe_allow_html=True)
-footer_func()
-navigationbar_nose()
-
-
-sidebar(0,0,1,0,0,0)
 display_output_2()
+
+navigationbar_nose()
+sidebar(0,0,1,0,0,0)
+footer_func()
 
 
 
