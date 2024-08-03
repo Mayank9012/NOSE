@@ -29,12 +29,6 @@ def display_output_0():
                 mime="text/tsv"
             )
 
-
-navigationbar_nose()
-
-
-sidebar(0,1,0,0,0,0)
-
 header="""
         <div class = "heading">
             <h2  style = "color:black; font-weight:bold; ">Quality Check</h2>
@@ -44,6 +38,8 @@ st.markdown(header,unsafe_allow_html=True, help="Quality Check")
 
 # Main content
 st.markdown("<hr style='margin:0px; height:2px; margin-bottom:40px;'>", unsafe_allow_html=True)
-footer_func()
 
 display_output_0()
+navigationbar_nose()
+sidebar(0,1,0,0,0,0)
+footer_func()
