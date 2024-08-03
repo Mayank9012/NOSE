@@ -77,20 +77,20 @@ hr {
     display: none;
 }
 	
-[id = "bui3"]{
+[id = "bui5"]{
 	position:relative;
 	left:5%;
 	width:fit-content;
 	top:3%;
 
 } 
-[id="bui3__anchor"]{
+[id="bui5__anchor"]{
 	position:relative;
 	top:70%;
 }
 [data-testid="stAppViewBlockContainer"]{
 	padding-top:6rem;
 } 
-.stStepCircle2{
-	transform:translateX(-95%) !important;
+[data-testid="stTooltipHoverTarget"]{
+        transform: translateY(15px);
 }
