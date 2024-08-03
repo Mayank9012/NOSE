@@ -40,7 +40,9 @@ hr {
     background-color: grey;
     margin: 0px;
 }
-
+[data-testid="stTooltipHoverTarget"]{
+	transform: translateY(7px);
+}
 [id = "bui3"]{
 	position:relative;
 	left:5%;
