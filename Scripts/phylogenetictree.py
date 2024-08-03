@@ -30,7 +30,7 @@ class AnnotatedImage16stree:
     annotation: str = ""  # Added type annotation for clarity
     
     def __post_init__(self):
-        self.url = f"/NOSE/Trees/16STree/file_{self.id}.newick"  # Assuming images are named like image_1.jpg, image_2.jpg, etc.
+        self.url = f"Trees/16STree/file_{self.id}.newick"  # Assuming images are named like image_1.jpg, image_2.jpg, etc.
         if not os.path.exists(self.url):
             raise ValueError(f"File not found: {self.url}")
 @dataclass
@@ -42,12 +42,12 @@ class AnnotatedImagewgstree:
     annotation: str = ""  # Added type annotation for clarity
     
     def __post_init__(self):
-        self.url = f"/NOSE/Trees/WGSTree/image_{self.id}.png"  # Assuming images are named like image_1.jpg, image_2.jpg, etc.
+        self.url = f"Trees/WGSTree/image_{self.id}.png"  # Assuming images are named like image_1.jpg, image_2.jpg, etc.
         if not os.path.exists(self.url):
             raise ValueError(f"Image file not found: {self.url}")
 
 
-with open('/NOSE/CSS/phylogenictree.css') as f:
+with open('CSS/phylogenictree.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
