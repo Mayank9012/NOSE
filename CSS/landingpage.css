@@ -309,7 +309,7 @@ body, html {
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
-    transform: translateX(0px) translateY(-180px) !important;
+    transform: translateX(0px) translateY(-10px) !important;
 }
 
 .logo {
