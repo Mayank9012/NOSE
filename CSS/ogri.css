@@ -74,14 +74,16 @@ hr {
     font-weight: bold;
 }
 
-
+[data-testid="stTooltipHoverTarget"]{
+	transform: translateY(8px);
+}
 
 [class="block-container st-emotion-cache-13ln4jf ea3mdgi5"] {
     padding-bottom: 0rem;
 }
 
 button[data-baseweb="tab"] > div[data-testid="stMarkdownContainer"] > p {
-    font-size: 0.8vw;
+    font-size: 0.9rem;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     padding: 3vw;
@@ -128,7 +130,7 @@ div.st-emotion-cache-wpiqi3.e1f1d6gn2{
 	top:70%;
 }
 [data-testid="stAppViewBlockContainer"]{
-	padding-top:6rem;
+	padding-top: 4rem;
 } 
 [data-testid = "stIFrame"]{
 	height:0px;
@@ -137,6 +139,6 @@ div.st-emotion-cache-wpiqi3.e1f1d6gn2{
 @media screen and (max-width:700px){
 	
 	button[data-baseweb="tab"] > div[data-testid="stMarkdownContainer"] > p {
-    		font-size: 2.2vw;
+    		font-size: 0.7rem;
 	}
 }
