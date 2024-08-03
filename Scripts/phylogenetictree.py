@@ -7,8 +7,8 @@ from navigationbar_nose import navigationbar_nose
 from sidebar_nose import sidebar
 from dataclasses import dataclass
 st.set_page_config(layout="wide", initial_sidebar_state='auto' )
-from newick import loads
 import newick
+from newick import loads
 from streamlit_image_zoom import image_zoom
 from PIL import Image
 
