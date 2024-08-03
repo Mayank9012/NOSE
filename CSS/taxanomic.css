@@ -41,7 +41,7 @@ hr {
     margin: 0px;
 }
 [data-testid="stTooltipHoverTarget"]{
-	transform: translateY(7px);
+	transform: translateY(8px);
 }
 [id = "bui3"]{
 	position:relative;
@@ -55,5 +55,5 @@ hr {
 	top:70%;
 } 
 [data-testid="stAppViewBlockContainer"]{
-	padding-top:6rem;
+	padding-top:4rem;
 }
