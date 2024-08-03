@@ -41,7 +41,7 @@ hr {
     margin: 0px;
 }
 [data-testid="stTooltipHoverTarget"]{
-	transform: translateY(0ox);
+	transform: translateY(7px);
 }
 
 [id = "bui3"]{
