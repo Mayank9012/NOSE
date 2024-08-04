@@ -552,8 +552,8 @@ body, html {
 
     .logo {
         position: relative;
-        width: 25vw;
-        transform: translateX(160%) translateY(50%);
+        width: 35vw;
+        transform: translateX(160%) translateY(90%);
         left: 25%;
     }
 
