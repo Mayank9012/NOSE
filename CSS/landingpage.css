@@ -125,7 +125,7 @@ button[title="View fullscreen"] {
 .containercards {
     width: 50%;
     height: 100%;
-    transform: translateX(8%) translateY(-23%) !important;
+    transform: translateX(-5%) translateY(-23%) !important;
 }
 
 #cards {
