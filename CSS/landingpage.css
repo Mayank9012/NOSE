@@ -318,14 +318,14 @@ body, html {
 .logo {
     position: relative;
     width: 25vw;
-    transform: translateX(130%) translateY(27%);
+    transform: translateX(130%) translateY(27%) !important;
 }
 
 .nose {
     position: relative;
     max-height: 300px;
     width: 25vw;
-    transform: translateX(-118%) translateY(-90%);
+    transform: translateX(-118%) translateY(-90%) !important;
     font-family: Sans;
     font-size: 1.3rem;
     font-weight: bold;
@@ -336,7 +336,7 @@ body, html {
 [data-testid="stIFrame"] {
     position: relative;
     width: 40%;
-    transform: translateX(-165%) translateY(-165%);
+    transform: translateX(-165%) translateY(-165%) !important;
 }
 
 .card-content {
