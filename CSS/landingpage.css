@@ -572,15 +572,17 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-64%) translateY(-1150%);
+        transform: translateX(-64%) translateY(-1050%);
         width: 100px;
         height: 30px;
         border: 2px solid #3d6154;
         background-color: #1c3b29;
         position: relative;
-		font-size:0.8rem;
         margin-left: 20%;
     }
+	[data-testid="baseButton-secondary"] > [data-testid="stMarkdownContainer"]{
+		font-size:0.8rem;
+	}
 
     .scroll-down1 {
         height: 40px;
