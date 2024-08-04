@@ -246,7 +246,7 @@ body, html {
 	
 }
 [data-testid="baseButton-secondary"] {
-    transform: translateX(-155%) translateY(-950%) !important;
+    transform: translateX(-155%) translateY(-1050%) !important;
     width: 170px;
     height: 45px;    
     border: 2px solid #3d6154;
@@ -263,7 +263,7 @@ body, html {
     position: absolute;
     border-radius: 20px;
     cursor: pointer;
-    transform: translateY(-510%) translateX(15%);
+    transform: translateY(-810%) translateX(15%);
 }
 
 .scroll-down1::before,
@@ -306,26 +306,26 @@ body, html {
     position: relative;
     font-family: Ubuntu;
     font-weight: bold;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     letter-spacing: 4px;
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
-	left: 35% !important;
+	left: 37% !important;
     transform: translateY(-50px) !important;
 }
 
 .logo {
     position: relative;
     width: 25vw;
-    transform: translateX(130%) translateY(27%) !important;
+    transform: translateX(137%) translateY(27%) !important;
 }
 
 .nose {
     position: relative;
     max-height: 300px;
     width: 25vw;
-    transform: translateX(-75%) translateY(-109%) !important;
+    transform: translateX(-66%) translateY(-92%) !important;
     font-family: Sans;
     font-size: 1.2rem;
     font-weight: bold;
