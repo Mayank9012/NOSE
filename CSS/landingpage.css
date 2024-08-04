@@ -554,7 +554,7 @@ body, html {
         position: relative;
         width: 35vw;
         transform: translateX(160%) translateY(90%);
-        left: 25%;
+      
     }
 
     .nose {
