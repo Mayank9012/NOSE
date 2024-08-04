@@ -186,7 +186,7 @@ with st.container(border=True):
 
     st.markdown("""
     <div class="scroll-down">
-        <a href="#section2"><div class="scroll-down1"></div></a>
+        <a class = "sec2" href="#section2"><div class="scroll-down1"></div></a>
     </div>
     """, unsafe_allow_html=True)
 
