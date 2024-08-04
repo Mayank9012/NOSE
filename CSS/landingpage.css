@@ -246,7 +246,7 @@ body, html {
 	
 }
 [data-testid="baseButton-secondary"] {
-    transform: translateX(-155%) translateY(-1050%) !important;
+    transform: translateX(-155%) translateY(-1150%) !important;
     width: 170px;
     height: 45px;    
     border: 2px solid #3d6154;
@@ -311,21 +311,21 @@ body, html {
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
-	left: 37% !important;
+	left: 35% !important;
     transform: translateY(-50px) !important;
 }
 
 .logo {
     position: relative;
     width: 25vw;
-    transform: translateX(151%) translateY(27%) !important;
+    transform: translateX(141%) translateY(27%) !important;
 }
 
 .nose {
     position: relative;
     max-height: 300px;
     width: 25vw;
-    transform: translateX(-66%) translateY(-92%) !important;
+    transform: translateX(-66%) translateY(-118%) !important;
     font-family: Sans;
     font-size: 1.2rem;
     font-weight: bold;
@@ -336,7 +336,7 @@ body, html {
 [data-testid="stIFrame"] {
     position: relative;
     width: 40%;
-    transform: translateX(-70%) translateY(-90%) !important;
+    transform: translateX(-100%) translateY(-101%) !important;
 }
 
 .card-content {
