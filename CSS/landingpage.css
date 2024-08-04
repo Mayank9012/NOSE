@@ -479,7 +479,7 @@ body, html {
     .logo {
         position: relative;
         width: 13rem;
-        transform: translateX(165%) translateY(90%);
+        transform: translateX(165%) translateY(90%) !important;
       
     }
 
@@ -488,7 +488,7 @@ body, html {
         max-height: 300px;
         width: 30vw;
         margin-top: 30px;
-        transform: translateX(-83%) translateY(7%);
+        transform: translateX(-83%) translateY(7%) !important;
         font-family: Sans;
         font-size: 0.9rem;
         font-weight: bold;
@@ -498,7 +498,7 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-24%) translateY(-150%);
+        transform: translateX(-24%) translateY(-150%) !important;
         width: 100px;
         height: 30px;
         border: 2px solid #3d6154;
@@ -518,13 +518,13 @@ body, html {
         position: absolute;
         border-radius: 20px;
         cursor: pointer;
-        transform: translateY(-1560%) translateX(15%);
+        transform: translateY(-1560%) translateX(15%) !important;
     }
 
     [data-testid="stIFrame"] {
         position: relative;
         width: 50%;
-        transform: translateX(-46%) translateY(-40%);
+        transform: translateX(-46%) translateY(-40%) !important;
         left: 30%;
     }
 
