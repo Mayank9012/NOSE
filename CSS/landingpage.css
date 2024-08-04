@@ -560,7 +560,7 @@ body, html {
     .nose {
         position: relative;
         max-height: 300px;
-        width: 30vw;
+        width: 350px;
         margin-top: 30px;
         transform: translateX(-83%) translateY(-7%);
         font-family: Sans;
