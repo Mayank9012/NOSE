@@ -560,7 +560,7 @@ body, html {
     .nose {
         position: relative;
         max-height: 300px;
-        width: 350px;
+        width: 30vw;
         margin-top: 30px;
         transform: translateX(-83%) translateY(-7%);
         font-family: Sans;
@@ -592,7 +592,7 @@ body, html {
         position: absolute;
         border-radius: 20px;
         cursor: pointer;
-        transform: translateY(-560%) translateX(15%);
+        transform: translateY(-760%) translateX(15%);
     }
 
     [data-testid="stIFrame"] {
