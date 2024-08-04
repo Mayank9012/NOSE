@@ -25,7 +25,7 @@
 }
 #section2{
 	z-index:-1;
-	transform: translateY(-1500px) !important;
+	transform: translateY(-500px) !important;
 }
 [data-testid="stVerticalBlockBorderWrapper"] {
     border: 1px solid transparent;
