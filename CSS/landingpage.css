@@ -621,4 +621,7 @@ body, html {
     .card-body {
         height: 30vh;
     }
+	[data-testid="stAppViewContainer"]{
+		overflow-x: hidden !important;
+	}
 }
