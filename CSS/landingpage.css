@@ -246,7 +246,7 @@ body, html {
 	
 }
 [data-testid="baseButton-secondary"] {
-    transform: translateX(-225%) translateY(-900%);
+    transform: translateX(-295%) translateY(-1000%);
     width: 170px;
     height: 45px;    
     border: 2px solid #3d6154;
