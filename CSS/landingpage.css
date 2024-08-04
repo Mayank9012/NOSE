@@ -122,7 +122,7 @@ button[title="View fullscreen"] {
 .containercards {
     width: 50%;
     height: 100%;
-    transform: translateX(10%) translateY(-23%) !important;
+    transform: translateX(8%) translateY(-23%) !important;
 }
 
 #cards {
@@ -155,7 +155,7 @@ button[title="View fullscreen"] {
 
 .card {
     position: sticky;
-    top: 250px;
+    top: 650px;
     padding-top: calc(var(--index) * var(--cardTopPadding));
 }
 
@@ -215,7 +215,7 @@ button[title="View fullscreen"] {
 
 h2 {
     position: relative;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -613,6 +613,7 @@ body, html {
     }
 
     .card-content {
+	    top: 0rem;
         font-size: 0.8rem;
         width: 50vw;
         height: 200px;
