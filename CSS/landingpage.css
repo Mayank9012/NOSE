@@ -341,7 +341,7 @@ body, html {
     display: flex;
     color: white;
     padding: 10px;
-    border-radius: 100px 100px 50px 50px;
+    border-radius: 10px 10px 10px 10px;
     margin: 0px;
     font-family: Ubuntu;
     width: 650px;
