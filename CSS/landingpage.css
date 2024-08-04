@@ -243,8 +243,7 @@ body, html {
     left: 50%;
 }
 [data-testid="stButton"]{
-	margin: 20px;
-	gap: 30px;
+	
 }
 [data-testid="baseButton-secondary"] {
     transform: translateX(-225%) translateY(-900%);
