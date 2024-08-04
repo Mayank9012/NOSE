@@ -155,7 +155,7 @@ button[title="View fullscreen"] {
 
 .card {
     position: sticky;
-    top: 650px;
+    top: 450px;
     padding-top: calc(var(--index) * var(--cardTopPadding));
 }
 
@@ -620,7 +620,7 @@ body, html {
     }
 
     .card-body {
-        height: 30vh;
+        height: 50vh;
     }
 	[data-testid="stAppViewContainer"]{
 		overflow-x: hidden !important;
