@@ -23,7 +23,10 @@
     cursor: pointer;
     border-radius: 12px;
 }
-
+.sec2{
+	z-index:-1;
+	transform: translateY(-500px);
+}
 [data-testid="stVerticalBlockBorderWrapper"] {
     border: 1px solid transparent;
 }
