@@ -246,7 +246,7 @@ body, html {
 	
 }
 [data-testid="baseButton-secondary"] {
-    transform: translateX(-195%) translateY(-800%) !important;
+    transform: translateX(-155%) translateY(-950%) !important;
     width: 170px;
     height: 45px;    
     border: 2px solid #3d6154;
@@ -461,83 +461,6 @@ body, html {
     display: none;
 }
 
-@media screen  and (min-width: 1135px) and (max-width: 1630px) {
-    #welcomeText {
-        position: relative;
-        font-family: Ubuntu;
-        font-weight: bold;
-        font-size: 1.5em;
-        letter-spacing: 4px;
-        overflow: hidden;
-        color: #1c3b29;
-        top: 0rem;
-        left: 41%;
-        transform: translateY(-60px);
-    }
-
-    .logo {
-        position: relative;
-        width: 25em;
-        transform: translateX(140%) translateY(50%);
-    }
-
-    .nose {
-        position: relative;
-        max-height: 300px;
-        width: 50%;
-        margin-top: 30px;
-        transform: translateX(-50%) translateY(-30%);
-        font-family: Sans;
-        font-size: 1em;
-        font-weight: bold;
-        color: #1c3b29;
-        text-align: center;
-        margin-left: 2%;
-    }
-
-    [data-testid="baseButton-secondary"] {
-        transform: translateX(-105%) translateY(-850%);
-        width: 170px;
-        height: 45px;
-        border: 2px solid #3d6154;
-        background-color: #1c3b29;
-        position: relative;
-    }
-
-    .scroll-down1 {
-        height: 40px;
-        width: 25px;
-        border: 2px solid #1c3b29;
-        left: 50%;
-        position: absolute;
-        border-radius: 20px;
-        cursor: pointer;
-        transform: translateY(-600%) translateX(15%);
-    }
-
-    [data-testid="stIFrame"] {
-        position: relative;
-        width: 40%;
-        transform: translateX(-89%) translateY(-88%);
-        margin-left: 18%;
-    }
-
-    .containercards {
-        text-align: center;
-        width: 100%;
-        transform: translateX(5%);
-    }
-
-    #cards {
-        width: 45vw;
-    }
-
-    .card-content {
-        font-size: 1em;
-        width: 30vw;
-        height: 200px;
-    }
-}
 
 @media screen  and (min-width: 491px) and (max-width: 1134px) {
     #welcomeText {
