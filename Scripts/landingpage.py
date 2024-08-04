@@ -199,7 +199,7 @@ st.markdown("""
     <ul id="cards">
         <li class="card" id="card1">
             <div class="card-body">
-                <p style="font-size: 2.5em; font-weight: bold; top:0;">Quality Check</p><br>
+                <p style="font-size: 1.2rem; font-weight: bold; top:0;">Quality Check</p><br>
                 <div class="card-content">
                     <p><br><br><br>NoSE is a tool to predict the novel species from the given gene sequences.</p>
                 </div>
@@ -207,7 +207,7 @@ st.markdown("""
         </li>
         <li class="card" id="card2">
             <div class="card-body">
-                <p style="font-size: 2.5em; font-weight: bold; top:0;">Genome Relatedness Index </p><br>
+                <p style="font-size: 1.2rem; font-weight: bold; top:0;">Genome Relatedness Index </p><br>
                 <div class="card-content">
                     <p><br><br><br>NoSE is a tool to predict the novel species from the given gene sequences.</p>
                 </div>
@@ -215,7 +215,7 @@ st.markdown("""
         </li>
         <li class="card" id="card3">
             <div class="card-body">
-                <p style="font-size: 2.5em; font-weight: bold; top:0;">Taxanomic Classification</p><br>
+                <p style="font-size: 1.2rem; font-weight: bold; top:0;">Taxanomic Classification</p><br>
                 <div class="card-content">
                     <p><br><br><br>NoSE is a tool to predict the novel species from the given gene sequences.</p>
                 </div>
@@ -223,7 +223,7 @@ st.markdown("""
         </li>
         <li class="card" id="card4">
             <div class="card-body">
-                <p style="font-size: 2.5em; font-weight: bold; top:0;">Phylogenetic Tree</p><br>
+                <p style="font-size: 1.2rem; font-weight: bold; top:0;">Phylogenetic Tree</p><br>
                 <div class="card-content">
                     <p><br><br><br>NoSE is a tool to predict the novel species from the given gene sequences.</p>
                 </div>
