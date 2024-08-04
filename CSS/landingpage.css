@@ -125,7 +125,7 @@ button[title="View fullscreen"] {
 .containercards {
     width: 50%;
     height: 100%;
-    transform: translateX(-5%) translateY(-23%) !important;
+    transform: translateX(8%) translateY(-23%) !important;
 }
 
 #cards {
@@ -263,7 +263,7 @@ body, html {
     position: absolute;
     border-radius: 20px;
     cursor: pointer;
-    transform: translateY(-1110%) translateX(15%);
+    transform: translateY(-1110%) translateX(15%) !important;
 }
 
 .scroll-down1::before,
