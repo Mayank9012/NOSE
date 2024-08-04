@@ -23,7 +23,7 @@
     cursor: pointer;
     border-radius: 12px;
 }
-.sec2{
+#section2{
 	z-index:-1;
 	transform: translateY(-1500px) !important;
 }
