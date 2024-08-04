@@ -179,7 +179,7 @@ with st.container(border=True):
             url = f'http://localhost:8501/'
             webbrowser.open_new_tab(url)
 
-    with col2:
+    with col5:
         butn = st.button("Check Status")
         if butn:
             pop()
