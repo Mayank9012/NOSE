@@ -595,7 +595,7 @@ body, html {
     [data-testid="stIFrame"] {
         position: relative;
         width: 50%;
-        transform: translateX(-156%) translateY(-70%);
+        transform: translateX(-46%) translateY(-70%);
         left: 30%;
     }
 
