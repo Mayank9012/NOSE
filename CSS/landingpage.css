@@ -318,16 +318,16 @@ body, html {
 .logo {
     position: relative;
     width: 25vw;
-    transform: translateX(140%) translateY(37%);
+    transform: translateX(130%) translateY(27%);
 }
 
 .nose {
     position: relative;
     max-height: 300px;
     width: 25vw;
-    transform: translateX(-88%) translateY(-50%);
+    transform: translateX(-118%) translateY(-90%);
     font-family: Sans;
-    font-size: 1.2em;
+    font-size: 1.3rem;
     font-weight: bold;
     color: #1c3b29;
     text-align: center;
@@ -336,11 +336,11 @@ body, html {
 [data-testid="stIFrame"] {
     position: relative;
     width: 40%;
-    transform: translateX(-115%) translateY(-115%);
+    transform: translateX(-165%) translateY(-165%);
 }
 
 .card-content {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     display: flex;
     color: white;
     padding: 10px;
