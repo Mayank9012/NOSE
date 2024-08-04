@@ -155,7 +155,7 @@ button[title="View fullscreen"] {
 
 .card {
     position: sticky;
-    top: 250px;
+    top: 50px;
     padding-top: calc(var(--index) * var(--cardTopPadding));
 }
 
