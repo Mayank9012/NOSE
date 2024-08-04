@@ -263,7 +263,7 @@ body, html {
     position: absolute;
     border-radius: 20px;
     cursor: pointer;
-    transform: translateY(-1110%) translateX(15%) !important;
+    transform: translateY(-1120%) translateX(15%) !important;
 }
 
 .scroll-down1::before,
