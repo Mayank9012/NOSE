@@ -318,24 +318,24 @@ body, html {
         position: relative;
         font-family: Ubuntu;
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 0.9em;
         letter-spacing: 4px;
         overflow: hidden;
         color: #1c3b29;
         top: 0rem;
-        left: 16%;
+        left: 6%;
         transform: translateY(-90px);
     }
     .logo {
         position: relative;
         width: 200px;
-        transform: translateX(29%) translateY(-25%);
+        transform: translateX(65%) translateY(-5%);
     }
     .nose {
         position: relative;
         max-height: 200px;
         width: 75vw;
-        transform: translateX(0%) translateY(160%);
+        transform: translateX(15%) translateY(210%);
         font-family: Sans;
         font-size: 1em;
         font-weight: bold;
@@ -347,7 +347,7 @@ body, html {
     }
     [data-testid="baseButton-secondary"] {
         display: inline-block;
-        transform: translateX(28%) translateY(-693%);
+        transform: translateX(78%) translateY(-493%);
         width: 135px;
         height: 35px;
         border: 2px solid #3d6154;
