@@ -323,13 +323,13 @@ body, html {
         overflow: hidden;
         color: #1c3b29;
         top: 0rem;
-        left: 15% !important;
+        left: 18.5% !important;
         transform: translateY(-90px);
     }
     .logo {
         position: relative;
         width: 200px;
-        transform: translateX(5%) translateY(-5%) !important;
+        transform: translateX(8%) translateY(-5%) !important;
     }
     .nose {
         position: relative;
