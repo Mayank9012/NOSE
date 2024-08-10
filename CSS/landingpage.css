@@ -498,7 +498,7 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-24%) translateY(-950%) !important;
+        transform: translateX(-38%) translateY(-1010%) !important;
         width: 80px;
         height: 25px;
         border: 2px solid #3d6154;
@@ -524,7 +524,7 @@ body, html {
     [data-testid="stIFrame"] {
         position: relative;
         width: 50%;
-        transform: translateX(-100%) translateY(-70%) !important;
+        transform: translateX(-90%) translateY(-70%) !important;
         left: 30%;
     }
 
@@ -603,7 +603,7 @@ body, html {
         position: absolute;
         border-radius: 20px;
         cursor: pointer;
-        transform: translateY(-600%) translateX(15%);
+        transform: translateY(-500%) translateX(15%);
     }
 
     [data-testid="stIFrame"] {
