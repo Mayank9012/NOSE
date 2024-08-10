@@ -335,7 +335,7 @@ body, html {
         position: relative;
         max-height: 200px;
         width: 75vw;
-        transform: translateX(65%) translateY(310%) !important;
+        transform: translateX(65%) translateY(110%) !important;
         font-family: Sans;
         font-size: 1em;
         font-weight: bold;
