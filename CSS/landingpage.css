@@ -318,7 +318,7 @@ body, html {
 .logo {
     position: relative;
     width: 25vw;
-    transform: translateX(141%) translateY(27%) !important;
+    transform: translateX(151%) translateY(27%) !important;
 }
 
 .nose {
