@@ -552,7 +552,7 @@ body, html {
 		overflow-x: hidden !important;
 	}
 }
-@media screen  and (min-width: 1135px) and (max-width: 1330px) {
+@media screen  and (min-width: 635px) and (max-width: 830px) {
     #welcomeText {
         position: relative;
         font-family: Ubuntu;
