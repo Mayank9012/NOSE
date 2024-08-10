@@ -587,7 +587,7 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-105%) translateY(-850%);
+        transform: translateX(-120%) translateY(-850%);
         width: 170px;
         height: 45px;
         border: 2px solid #3d6154;
@@ -603,13 +603,13 @@ body, html {
         position: absolute;
         border-radius: 20px;
         cursor: pointer;
-        transform: translateY(-500%) translateX(15%);
+        transform: translateY(-390%) translateX(15%);
     }
 
     [data-testid="stIFrame"] {
         position: relative;
         width: 40%;
-        transform: translateX(-89%) translateY(-88%);
+        transform: translateX(-85%) translateY(-88%);
         margin-left: 18%;
     }
 
