@@ -323,13 +323,13 @@ body, html {
         overflow: hidden;
         color: #1c3b29;
         top: 0rem;
-        left: 9% !important;
+        left: 15% !important;
         transform: translateY(-90px);
     }
     .logo {
         position: relative;
         width: 200px;
-        transform: translateX(35%) translateY(-5%) !important;
+        transform: translateX(5%) translateY(-5%) !important;
     }
     .nose {
         position: relative;
@@ -358,7 +358,7 @@ body, html {
     [data-testid="stIFrame"] {
         position: relative;
         width: 100%;
-        transform: translateX(5%) translateY(-23%) !important;
+        transform: translateX(0%) translateY(-23%) !important;
     }
     .scroll-down {
         position: absolute;
