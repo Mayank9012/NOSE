@@ -241,7 +241,7 @@ st.markdown("<hr style='background-color: #3d6154; margin: 0; height: 4px; width
 footer_func()
 st.markdown("""<style>
         .footer_nose{
-                backgroung-color: white;
+                backgroung-color: white !important;
         }</style>""", unsafe_allow_html = True) 
 
 
