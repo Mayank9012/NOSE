@@ -23,7 +23,7 @@
 }
 #section2{
 	z-index:-1;
-	transform: translateY(-500px) !important;
+	transform: translateY(-450px) !important;
 }
 [data-testid="stVerticalBlockBorderWrapper"] {
     border: 1px solid transparent;
@@ -113,7 +113,7 @@ button[title="View fullscreen"] {
     list-style: none;
     padding-left: 20px;
     display: grid;
-    width: 700px;
+    width: 500px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(var(--cards), var(--cardHeight));
     gap: var(--cardMargin);
@@ -273,7 +273,7 @@ body, html {
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
-	left: 36.5% !important;
+	left: 37% !important;
     transform: translateY(-50px) !important;
 }
 .logo {
@@ -299,17 +299,19 @@ body, html {
     transform: translateX(-66%) translateY(-77%) !important;
 }
 .card-content {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     display: flex;
     color: white;
     padding: 10px;
     border-radius: 10px 10px 10px 10px;
     margin: 0px;
     font-family: Ubuntu;
-    width: 650px;
-    height: 440px;
+    width: 450px;
+    height: 340px;
     overflow: hidden;
     text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 @media screen and (max-width: 490px) {
     #welcomeText {
