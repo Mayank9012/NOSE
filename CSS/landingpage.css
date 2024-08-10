@@ -229,7 +229,7 @@ body, html {
     position: absolute;
     border-radius: 20px;
     cursor: pointer;
-    transform: translateY(-1120%) translateX(15%) !important;
+    transform: translateY(-980%) translateX(15%) !important;
 }
 .scroll-down1::before,
 .scroll-down1::after {
@@ -285,7 +285,7 @@ body, html {
     position: relative;
     max-height: 300px;
     width: 25vw;
-    transform: translateX(-66%) translateY(-135%) !important;
+    transform: translateX(-66%) translateY(-100%) !important;
     font-family: Sans;
     font-size: 1.0rem;
     font-weight: bold;
@@ -295,7 +295,7 @@ body, html {
 [data-testid="stIFrame"] {
     position: relative;
     width: 40%;
-    transform: translateX(-85%) translateY(-91%) !important;
+    transform: translateX(-70%) translateY(-77%) !important;
 }
 .card-content {
     font-size: 1.2rem;
