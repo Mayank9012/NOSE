@@ -210,13 +210,16 @@ body, html {
 	
 }
 [data-testid="baseButton-secondary"] {
-    transform: translateX(-155%) translateY(-1150%) !important;
-    width: 170px;
-    height: 45px;    
+    transform: translateX(-155%) translateY(-1070%) !important;
+    width: 150px;
+    height: 35px;    
     border: 2px solid #3d6154;
     background-color: #1c3b29;
     position: relative;
     color: white;
+}
+[data-testid="baseButton-secondary"] > [data-testid="stMarkdownContainer"] > p{
+		font-size:0.9rem;
 }
 .scroll-down1 {
     height: 40px;
@@ -270,7 +273,7 @@ body, html {
     overflow: hidden;
     color: #1c3b29;
     top: 0rem;
-	left: 35% !important;
+	left: 39% !important;
     transform: translateY(-50px) !important;
 }
 .logo {
@@ -284,7 +287,7 @@ body, html {
     width: 25vw;
     transform: translateX(-66%) translateY(-135%) !important;
     font-family: Sans;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: bold;
     color: #1c3b29;
     text-align: center;
@@ -292,7 +295,7 @@ body, html {
 [data-testid="stIFrame"] {
     position: relative;
     width: 40%;
-    transform: translateX(-115%) translateY(-101%) !important;
+    transform: translateX(-85%) translateY(-91%) !important;
 }
 .card-content {
     font-size: 1.2rem;
