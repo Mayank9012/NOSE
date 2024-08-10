@@ -4,6 +4,7 @@ import streamlit.components.v1 as components
 import webbrowser
 st.set_page_config(initial_sidebar_state='auto' )
 st.write("#")
+from footer_nose import footer_func
 
 with open('CSS/landingpage.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
@@ -237,12 +238,11 @@ st.markdown("""
 
 st.markdown("<hr style='background-color: #3d6154; margin: 0; height: 4px; width: 100%; margin-top: 100px;'>", unsafe_allow_html=True)
 
-
-st.markdown("""
-<footer style='border-top: 5px solid darkgrey; text-align: center; margin-top: 20px;transform: translateX(0px) translateY(600px); width:100%;'>
-    <p style='color: #3d6154; font-size: 15px; '>© .................</p> 
-</footer>
-""", unsafe_allow_html=True)
+footer_func()
+st.markdown("""<style>
+        .footer_nose{
+                backgroung-color: white;
+        }</style>""", unsafe_allow_html = True) 
 
 
 scroll_script = """
