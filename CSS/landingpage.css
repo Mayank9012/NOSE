@@ -335,7 +335,7 @@ body, html {
         position: relative;
         max-height: 200px;
         width: 75vw;
-        transform: translateX(25%) translateY(110%) !important;
+        transform: translateX(0%) translateY(110%) !important;
         font-family: Sans;
         font-size: 1em;
         font-weight: bold;
@@ -347,7 +347,7 @@ body, html {
     }
     [data-testid="baseButton-secondary"] {
         display: inline-block;
-        transform: translateX(178%) translateY(-393%) !important;
+        transform: translateX(58%) translateY(-693%) !important;
         width: 135px;
         height: 35px;
         border: 2px solid #3d6154;
@@ -369,7 +369,7 @@ body, html {
     }
     .containercards {
         width: 50%;
-        transform: translateX(-40%) translateY(100%);
+        transform: translateX(-40%) translateY(190%) !important;
     }
     #cards {
         width: 300px;
