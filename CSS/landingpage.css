@@ -280,12 +280,13 @@ body, html {
     position: relative;
     width: 25vw;
     transform: translateX(141%) translateY(27%) !important;
+	left: 20% !important;
 }
 .nose {
     position: relative;
     max-height: 300px;
     width: 25vw;
-    transform: translateX(-66%) translateY(-100%) !important;
+    transform: translateX(-58%) translateY(-100%) !important;
     font-family: Sans;
     font-size: 1.0rem;
     font-weight: bold;
@@ -295,7 +296,7 @@ body, html {
 [data-testid="stIFrame"] {
     position: relative;
     width: 40%;
-    transform: translateX(-70%) translateY(-77%) !important;
+    transform: translateX(-66%) translateY(-77%) !important;
 }
 .card-content {
     font-size: 1.2rem;
