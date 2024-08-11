@@ -404,7 +404,7 @@ body, html {
 [data-testid="stHeader"] {
     display: none;
 }
-@media screen  and (min-width: 491px) and (max-width: 1134px) {
+@media screen  and (min-width: 491px) and (max-width: 934px) {
     #welcomeText {
         position: relative;
         font-family: Ubuntu;
@@ -439,7 +439,7 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-24%) translateY(-950%) !important;
+        transform: translateX(-50%) translateY(-950%) !important;
         width: 100px;
         height: 30px;
         width: 80px;
@@ -467,8 +467,7 @@ body, html {
     [data-testid="stIFrame"] {
         position: relative;
         width: 50%;
-        transform: translateX(-76%) translateY(-90%) !important;
-        transform: translateX(-100%) translateY(-70%) !important;
+        transform: translateX(-80%) translateY(-70%) !important;
         left: 30%;
     }
 
