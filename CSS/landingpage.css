@@ -420,7 +420,7 @@ body, html {
     .logo {
         position: relative;
         width: 13rem;
-        transform: translateX(165%) translateY(90%) !important;
+        transform: translateX(155%) translateY(90%) !important;
       
     }
     .nose {
@@ -439,7 +439,7 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-57%) translateY(-1050%) !important;
+        transform: translateX(-60%) translateY(-1050%) !important;
         width: 100px;
         height: 30px;
         width: 80px;
@@ -462,18 +462,18 @@ body, html {
         position: absolute;
         border-radius: 20px;
         cursor: pointer;
-        transform: translateY(-1560%) translateX(15%) !important;
+        transform: translateY(-1160%) translateX(15%) !important;
     }
     [data-testid="stIFrame"] {
         position: relative;
         width: 50%;
-        transform: translateX(-80%) translateY(-70%) !important;
+        transform: translateX(-85%) translateY(-70%) !important;
         left: 30%;
     }
 
     .containercards {
         width: 100%;
-        transform: translateX(4%);
+        transform: translateX(-4%);
     }
     #cards {
         width: 60vw;
