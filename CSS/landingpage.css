@@ -439,7 +439,7 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-50%) translateY(-950%) !important;
+        transform: translateX(-57%) translateY(-1050%) !important;
         width: 100px;
         height: 30px;
         width: 80px;
