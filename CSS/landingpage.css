@@ -23,7 +23,7 @@
 }
 #section2{
 	z-index:-1;
-	transform: translateY(-450px) !important;
+	transform: translateY(-400px) !important;
 }
 [data-testid="stVerticalBlockBorderWrapper"] {
     border: 1px solid transparent;
