@@ -473,7 +473,7 @@ body, html {
 
     .containercards {
         width: 100%;
-        transform: translateX(-7%) !important;
+        transform: translateX(7%) translateY(-20%) !important;
     }
     #cards {
         width: 60vw;
