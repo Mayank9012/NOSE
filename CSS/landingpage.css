@@ -439,7 +439,7 @@ body, html {
     }
 
     [data-testid="baseButton-secondary"] {
-        transform: translateX(-60%) translateY(-1050%) !important;
+        transform: translateX(-63%) translateY(-1050%) !important;
         width: 100px;
         height: 30px;
         width: 80px;
@@ -462,7 +462,7 @@ body, html {
         position: absolute;
         border-radius: 20px;
         cursor: pointer;
-        transform: translateY(-1160%) translateX(15%) !important;
+        transform: translateY(-1290%) translateX(15%) !important;
     }
     [data-testid="stIFrame"] {
         position: relative;
