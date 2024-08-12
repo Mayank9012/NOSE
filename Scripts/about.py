@@ -20,5 +20,6 @@ st.markdown("<hr style='margin:0px; height:2px; margin-bottom:40px;'>", unsafe_a
 with st.container(border=True):
 	st.write("............................About............................")
 
-footer_func()
+
 navigationbar_nose()
+footer_func()
