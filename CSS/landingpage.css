@@ -329,7 +329,7 @@ body, html {
     .logo {
         position: relative;
         width: 200px;
-        transform: translateX(10%) translateY(-5%) !important;
+        transform: translateX(7%) translateY(-5%) !important;
     }
     .nose {
         position: relative;
@@ -347,7 +347,7 @@ body, html {
     }
     [data-testid="baseButton-secondary"] {
         display: inline-block;
-        transform: translateX(30%) translateY(-693%) !important;
+        transform: translateX(23%) translateY(-693%) !important;
         width: 135px;
         height: 35px;
         border: 2px solid #3d6154;
@@ -358,7 +358,7 @@ body, html {
     [data-testid="stIFrame"] {
         position: relative;
         width: 100%;
-        transform: translateX(-1%) translateY(-23%) !important;
+        transform: translateX(-8%) translateY(-23%) !important;
     }
     .scroll-down {
         position: absolute;
@@ -369,7 +369,7 @@ body, html {
     }
     .containercards {
         width: 50%;
-        transform: translateX(-25%) translateY(-10%) !important;
+        transform: translateX(-49%) translateY(-10%) !important;
     }
     #cards {
         width: 300px;
