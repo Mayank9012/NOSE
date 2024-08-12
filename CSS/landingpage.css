@@ -296,7 +296,7 @@ body, html {
 [data-testid="stIFrame"] {
     position: relative;
     width: 40%;
-    transform: translateX(-66%) translateY(-77%) !important;
+    transform: translateX(-63%) translateY(-77%) !important;
 }
 .card-content {
     font-size: 1.0rem;
