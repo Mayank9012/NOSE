@@ -6,7 +6,7 @@ from sidebar_nose import sidebar
 from dataclasses import dataclass
 st.set_page_config(layout="wide", initial_sidebar_state='auto' )
 
-with open('/NOSE/CSS/help.css') as f:
+with open('CSS/help.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
     
@@ -35,5 +35,6 @@ with st.container(border=True):
 	st.title("Contact Us")
 	st.markdown("<hr style='margin:0px; height:2px; margin-bottom:40px;'>", unsafe_allow_html=True)
 
-footer_func()
+
 navigationbar_nose()
+footer_func()
