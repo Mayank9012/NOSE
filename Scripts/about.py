@@ -6,11 +6,11 @@ from sidebar_nose import sidebar
 from dataclasses import dataclass
 st.set_page_config(layout="wide", initial_sidebar_state='auto' )
 
-with open('/NOSE/CSS/about.css') as f:
+with open('CSS/about.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 header="""
          <div class = "heading">
-             <h2  style="color:black; font-size:50px; font-family:"Source Sans Pro", sans-serif; font-weight:bold;">NoSE</h2>
+             <h2  style="color:black; font-size:1.2rem; font-family:"Source Sans Pro", sans-serif; font-weight:bold;">NoSE</h2>
         </div>    
 
         """
