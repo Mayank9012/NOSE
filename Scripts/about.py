@@ -10,7 +10,7 @@ with open('CSS/about.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 header="""
          <div class = "heading">
-             <h2  style="color:black; font-size:1.2rem; font-family:"Source Sans Pro", sans-serif; font-weight:bold;">NoSE</h2>
+             <h2  style="color:black; font-size:1.5rem; font-family:"Source Sans Pro", sans-serif; font-weight:bold;">NoSE</h2>
         </div>    
 
         """
