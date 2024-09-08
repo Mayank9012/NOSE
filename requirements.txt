@@ -1,1 +1,2 @@
 newick
+streamlit-image-zoom
