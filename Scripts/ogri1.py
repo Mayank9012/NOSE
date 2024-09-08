@@ -114,8 +114,8 @@ st.markdown("""<style>
 
         .stStepCircle1 {
             background-color: #023b2a;
-            width: 4vh;
-            height: 4vh;
+            width: 1.6rem;
+            height: 1.6m;
             border-radius: 50%;
             display: inline-block;
             margin-bottom: 1vh;
@@ -128,8 +128,8 @@ st.markdown("""<style>
 
         .stStepCircle2 {
             background-color: #023b2a;
-            width: 4vh;
-            height: 4vh;
+            width: 1.6rem;
+            height: 1.6rem;
             border: 4px solid #fff;
             border-radius: 50%;
             display: flex;
