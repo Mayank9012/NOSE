@@ -11,6 +11,7 @@ import newick
 from newick import loads
 from streamlit_image_zoom import image_zoom
 from PIL import Image
+from phytreeviz import TreeViz, load_example_tree_file
 
 
 def next16s(): st.session_state.counter1 += 1
@@ -78,7 +79,7 @@ def display_output_3():
                     download = trees[st.session_state.counter1%n_trees]
                     download_file = download.url
                     download_data = read_file_content(download_file)
-                    name = "file_"+str((st.session_state.counter1%n_trees)+1)+".newick"
+                    name = "file_"+str((st.session_state.counter1%n_trees)+1)+".svg"
                     container = st.empty()
                     cols = st.columns(3)
                     with cols[2]: st.button("Next Species ➡️", on_click=next16s,key="type1", use_container_width=True)
@@ -87,7 +88,7 @@ def display_output_3():
                             data=download_data,
                             file_name=name,
                             key = "16stree",
-                            mime="text/tsv",
+                            mime="png/img",
                             use_container_width=True
                         )
                     with cols[0]: st.button("⬅️ Previous Species", on_click=prev16s,key ="type12" , use_container_width=True)    
@@ -97,9 +98,18 @@ def display_output_3():
                         ## Display image
                         with st.container(border=True,height=470):
                             # Load the tree from the Newick string
-                            tree = newick.loads(download_data)[0]
-                            st.code(f'\u200E{tree.ascii_art()}')
+                            #tree = newick.loads(download_data)[0]
+                            #st.code(f'\u200E{tree.ascii_art()}')
                             #st.image(img.url, use_column_width=True)
+                            
+                            tree_file = load_example_tree_file(download.url)
+                            tv = TreeViz(tree_file)
+                            tv.show_branch_length(color="red")
+                            tv.show_confidence(color="blue")
+                            tv.show_scale_bar()
+                            
+                            tv.savefig(name, dpi=300)
+                            st.image(name,use_column_width=True)
 
         with tab2:
             with st.container(border=True):
