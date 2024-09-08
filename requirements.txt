@@ -1,2 +1,3 @@
 newick
 streamlit-image-zoom
+treeviz
