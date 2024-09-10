@@ -102,7 +102,7 @@ def display_output_3():
                             #st.code(f'\u200E{tree.ascii_art()}')
                             #st.image(img.url, use_column_width=True)
                             
-                            tree_file = dowload_data
+                            tree_file = download_data
                             tv = TreeViz(tree_file)
                             tv.show_branch_length(color="red")
                             tv.show_confidence(color="blue")
