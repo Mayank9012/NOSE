@@ -102,7 +102,7 @@ def display_output_3():
                             #st.code(f'\u200E{tree.ascii_art()}')
                             #st.image(img.url, use_column_width=True)
                             
-                            tree_file = load_example_tree_file("file_{download.id}.newick")
+                            tree_file = dowload_data
                             tv = TreeViz(tree_file)
                             tv.show_branch_length(color="red")
                             tv.show_confidence(color="blue")
